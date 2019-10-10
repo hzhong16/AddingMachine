@@ -10,14 +10,14 @@ public class myCalculator {
 		myCalculator.add(5);
 		
 		System.out.println(myCalculator.toString());
-		System.out.println("answe =" + myCalculator.getTotal());
+		System.out.println("answer =" + myCalculator.getTotal());
 		
 		myCalculator.clear();
 		
 		myCalculator.add(6);
 		myCalculator.add(6);
 		System.out.println(myCalculator.toString());
-		
+		System.out.println("answer " + myCalculator.getTotal());
 		
 		
 		
