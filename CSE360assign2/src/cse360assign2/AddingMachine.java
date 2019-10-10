@@ -61,7 +61,7 @@ public class AddingMachine {
 	public void clear() {
 		history = "0";
 		total = 0;
-	};
+	}
 	
 	
 
