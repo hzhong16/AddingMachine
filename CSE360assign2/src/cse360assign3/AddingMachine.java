@@ -2,22 +2,22 @@
  * Author : Haoyuan Zhong
  * ASU ID : 1213565598
  * class ID: 70642 Wednesday
- * assignment : assignment 2
+ * assignment : assignment 3
  * 
  * DESCRIPTION : This is a simple program for simple calculation
  *
  *URL : https://github.com/hzhong16/AddingMachine/blob/master/CSE360assign2/src/cse360assign2/AddingMachine.java 
  * 
  */
-package cse360assign2;
+package cse360assign3;
 
 /*
  * class for adding function
  */
 public class AddingMachine {
 	
-	private int total;
-	private String history;
+	protected int total;
+	protected String history;
 	
 	/*
 	 * for initial value of total and history
@@ -62,6 +62,8 @@ public class AddingMachine {
 		history = "0";
 		total = 0;
 	}
+
+	
 	
 	
 
